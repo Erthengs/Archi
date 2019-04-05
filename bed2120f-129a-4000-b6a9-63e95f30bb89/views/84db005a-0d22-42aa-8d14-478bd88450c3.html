@@ -1,0 +1,380 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Metamodel</title>
+
+	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
+	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-3.3.2.min.css">
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-theme-3.3.2.min.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+		<div class="panel-heading root-panel-heading">
+			<b>Metamodel</b>
+			(<span class="i18n-viewpoint-"></span>)
+			<a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+		</div>
+		<div class="panel-body root-panel-body">
+			<img class="diagram" src="../images/84db005a-0d22-42aa-8d14-478bd88450c3.png" alt="Metamodel" usemap="#84db005a-0d22-42aa-8d14-478bd88450c3map">
+			<map name="84db005a-0d22-42aa-8d14-478bd88450c3map">
+								<area shape="rect" coords="884,692,1124,802" href="../elements/ac6fd647-6cba-48d5-9df5-e40c1215bb01.html"  target="element">
+								<area shape="rect" coords="524,236,764,346" href="../elements/fc52f533-8b6e-4102-a2e1-df85932f4025.html"  target="element">
+								<area shape="rect" coords="1220,236,1460,346" href="../elements/0c1e9d3c-03c7-496c-9e3e-670b1acdace9.html"  target="element">
+								<area shape="rect" coords="884,836,1124,946" href="../elements/43361638-e893-44eb-aaf1-477d7ff9ee59.html"  target="element">
+								<area shape="rect" coords="884,68,1124,178" href="../elements/01c02f69-76d2-4b46-96f3-820352e2d574.html"  target="element">
+								<area shape="rect" coords="1242,836,1388,946" href="../elements/232ff356-6593-463f-aac0-1b0c89f3db0b.html"  target="element">
+								<area shape="rect" coords="884,1004,1124,1114" href="../elements/3039199f-cdf3-41ef-a0f2-2b8669772dbd.html"  target="element">
+								<area shape="rect" coords="884,236,1124,346" href="../elements/6d77d413-fe0f-40a8-9f61-101fc661070a.html"  target="element">
+								<area shape="rect" coords="884,548,1124,658" href="../elements/1fcb3a8c-4c55-416b-b19d-110ad155dc34.html"  target="element">
+								<area shape="rect" coords="884,1172,1124,1282" href="../elements/141b248c-38d2-4b4f-89da-48bad62139e7.html"  target="element">
+								<area shape="rect" coords="884,404,1124,514" href="../elements/b17f2c3f-d01b-4aa5-808b-03087cdd88af.html"  target="element">
+								<area shape="rect" coords="1196,1004,1436,1114" href="../elements/14f2eb06-4188-4a58-bbe7-34774a81c130.html"  target="element">
+								<area shape="rect" coords="524,476,764,586" href="../elements/164c68a9-4abf-4855-9f13-db8c6e122ff2.html"  target="element">
+								<area shape="rect" coords="524,836,764,946" href="../elements/0d4a90a4-3748-42d0-8339-8f23d6bcff1e.html"  target="element">
+
+						<area shape="rect" coords="404,20,1534,1318" href="../elements/c3ae8dc2-811b-4883-a2bd-86e2281bad1b.html"  target="element">
+								<area shape="rect" coords="44,284,284,394" href="../elements/9808699d-8d44-40dc-97d0-61d7926181d8.html"  target="element">
+								<area shape="rect" coords="44,452,284,562" href="../elements/e79bd479-e17a-4aaf-b811-829d83c7e35f.html"  target="element">
+								<area shape="rect" coords="44,164,284,274" href="../elements/272903d8-9916-4a6e-b54d-c6031723b6c4.html"  target="element">
+								<area shape="rect" coords="44,596,284,706" href="../elements/7e9efd9a-b1d5-4781-a41b-fe810bd95b6f.html"  target="element">
+
+						<area shape="rect" coords="20,20,334,790" href="../elements/16c36060-72da-4ab0-8c8a-0a48c5b40791.html"  target="element">
+
+			</map>
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<textarea id="docsrc" style="display:none"></textarea>
+						<div id="doctgt" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr><td> <a href="../elements/c3ae8dc2-811b-4883-a2bd-86e2281bad1b.html" target="element"> Metamodel </a> </td><td class="i18n-elementtype-Grouping"></td></tr>
+													<tr><td> <a href="../elements/ac6fd647-6cba-48d5-9df5-e40c1215bb01.html" target="element"> Application Component </a> </td><td class="i18n-elementtype-ApplicationComponent"></td></tr>
+													<tr><td> <a href="../elements/fc52f533-8b6e-4102-a2e1-df85932f4025.html" target="element"> Business Object </a> </td><td class="i18n-elementtype-BusinessObject"></td></tr>
+													<tr><td> <a href="../elements/0c1e9d3c-03c7-496c-9e3e-670b1acdace9.html" target="element"> Business Actor </a> </td><td class="i18n-elementtype-BusinessActor"></td></tr>
+													<tr><td> <a href="../elements/43361638-e893-44eb-aaf1-477d7ff9ee59.html" target="element"> Technology Service </a> </td><td class="i18n-elementtype-TechnologyService"></td></tr>
+													<tr><td> <a href="../elements/01c02f69-76d2-4b46-96f3-820352e2d574.html" target="element"> Business Event </a> </td><td class="i18n-elementtype-BusinessEvent"></td></tr>
+													<tr><td> <a href="../elements/232ff356-6593-463f-aac0-1b0c89f3db0b.html" target="element"> Technology Interface </a> </td><td class="i18n-elementtype-TechnologyInterface"></td></tr>
+													<tr><td> <a href="../elements/3039199f-cdf3-41ef-a0f2-2b8669772dbd.html" target="element"> System Software </a> </td><td class="i18n-elementtype-SystemSoftware"></td></tr>
+													<tr><td> <a href="../elements/6d77d413-fe0f-40a8-9f61-101fc661070a.html" target="element"> Business Process </a> </td><td class="i18n-elementtype-BusinessProcess"></td></tr>
+													<tr><td> <a href="../elements/1fcb3a8c-4c55-416b-b19d-110ad155dc34.html" target="element"> Application Function </a> </td><td class="i18n-elementtype-ApplicationFunction"></td></tr>
+													<tr><td> <a href="../elements/141b248c-38d2-4b4f-89da-48bad62139e7.html" target="element"> Node </a> </td><td class="i18n-elementtype-Node"></td></tr>
+													<tr><td> <a href="../elements/b17f2c3f-d01b-4aa5-808b-03087cdd88af.html" target="element"> Business Function </a> </td><td class="i18n-elementtype-BusinessFunction"></td></tr>
+													<tr><td> <a href="../elements/14f2eb06-4188-4a58-bbe7-34774a81c130.html" target="element"> Device </a> </td><td class="i18n-elementtype-Device"></td></tr>
+													<tr><td> <a href="../elements/164c68a9-4abf-4855-9f13-db8c6e122ff2.html" target="element"> Data Object </a> </td><td class="i18n-elementtype-DataObject"></td></tr>
+													<tr><td> <a href="../elements/0d4a90a4-3748-42d0-8339-8f23d6bcff1e.html" target="element"> Artifact </a> </td><td class="i18n-elementtype-Artifact"></td></tr>
+											
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelGroup -->
+													<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+													<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+													<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											
+											<tr><td> <a href="../elements/16c36060-72da-4ab0-8c8a-0a48c5b40791.html" target="element"> Motivation </a> </td><td class="i18n-elementtype-Grouping"></td></tr>
+													<tr><td> <a href="../elements/9808699d-8d44-40dc-97d0-61d7926181d8.html" target="element"> Goal </a> </td><td class="i18n-elementtype-Goal"></td></tr>
+													<tr><td> <a href="../elements/e79bd479-e17a-4aaf-b811-829d83c7e35f.html" target="element"> Principle </a> </td><td class="i18n-elementtype-Principle"></td></tr>
+													<tr><td> <a href="../elements/272903d8-9916-4a6e-b54d-c6031723b6c4.html" target="element"> Driver </a> </td><td class="i18n-elementtype-Driver"></td></tr>
+													<tr><td> <a href="../elements/7e9efd9a-b1d5-4781-a41b-fe810bd95b6f.html" target="element"> Requirement </a> </td><td class="i18n-elementtype-Requirement"></td></tr>
+											
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/c92a2f1d-fd6c-46cd-8f0c-f068293b8c59.html" target="element">  </a> </td>
+																		<td> <a href="../elements/c92a2f1d-fd6c-46cd-8f0c-f068293b8c59.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/c3ae8dc2-811b-4883-a2bd-86e2281bad1b.html" target="element"> Metamodel </a> </td>
+																		<td> <a href="../elements/ac6fd647-6cba-48d5-9df5-e40c1215bb01.html" target="element"> Application Component </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/4d352902-06a2-4f27-8dc4-a830b319f298.html" target="element">  </a> </td>
+																		<td> <a href="../elements/4d352902-06a2-4f27-8dc4-a830b319f298.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/c3ae8dc2-811b-4883-a2bd-86e2281bad1b.html" target="element"> Metamodel </a> </td>
+																		<td> <a href="../elements/fc52f533-8b6e-4102-a2e1-df85932f4025.html" target="element"> Business Object </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/656b9dae-0a14-423e-a5e3-d64b59460266.html" target="element">  </a> </td>
+																		<td> <a href="../elements/656b9dae-0a14-423e-a5e3-d64b59460266.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/c3ae8dc2-811b-4883-a2bd-86e2281bad1b.html" target="element"> Metamodel </a> </td>
+																		<td> <a href="../elements/0c1e9d3c-03c7-496c-9e3e-670b1acdace9.html" target="element"> Business Actor </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/1a7cf0a4-0df5-432c-ad7c-dfb8b765ca23.html" target="element">  </a> </td>
+																		<td> <a href="../elements/1a7cf0a4-0df5-432c-ad7c-dfb8b765ca23.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/c3ae8dc2-811b-4883-a2bd-86e2281bad1b.html" target="element"> Metamodel </a> </td>
+																		<td> <a href="../elements/43361638-e893-44eb-aaf1-477d7ff9ee59.html" target="element"> Technology Service </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/39897366-ef50-4869-8115-0519353445ec.html" target="element">  </a> </td>
+																		<td> <a href="../elements/39897366-ef50-4869-8115-0519353445ec.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/c3ae8dc2-811b-4883-a2bd-86e2281bad1b.html" target="element"> Metamodel </a> </td>
+																		<td> <a href="../elements/01c02f69-76d2-4b46-96f3-820352e2d574.html" target="element"> Business Event </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/2f3e116b-a679-4db8-b59a-6fffeee053bd.html" target="element">  </a> </td>
+																		<td> <a href="../elements/2f3e116b-a679-4db8-b59a-6fffeee053bd.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/c3ae8dc2-811b-4883-a2bd-86e2281bad1b.html" target="element"> Metamodel </a> </td>
+																		<td> <a href="../elements/232ff356-6593-463f-aac0-1b0c89f3db0b.html" target="element"> Technology Interface </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/d4fdcd2c-a76b-4411-b736-16ce5e765500.html" target="element">  </a> </td>
+																		<td> <a href="../elements/d4fdcd2c-a76b-4411-b736-16ce5e765500.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/c3ae8dc2-811b-4883-a2bd-86e2281bad1b.html" target="element"> Metamodel </a> </td>
+																		<td> <a href="../elements/3039199f-cdf3-41ef-a0f2-2b8669772dbd.html" target="element"> System Software </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/212c668b-982d-4662-adea-18cadc53cfd9.html" target="element">  </a> </td>
+																		<td> <a href="../elements/212c668b-982d-4662-adea-18cadc53cfd9.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/c3ae8dc2-811b-4883-a2bd-86e2281bad1b.html" target="element"> Metamodel </a> </td>
+																		<td> <a href="../elements/6d77d413-fe0f-40a8-9f61-101fc661070a.html" target="element"> Business Process </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/01f24106-9cac-44df-bffd-ce1957c37929.html" target="element">  </a> </td>
+																		<td> <a href="../elements/01f24106-9cac-44df-bffd-ce1957c37929.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/c3ae8dc2-811b-4883-a2bd-86e2281bad1b.html" target="element"> Metamodel </a> </td>
+																		<td> <a href="../elements/1fcb3a8c-4c55-416b-b19d-110ad155dc34.html" target="element"> Application Function </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/a08c546f-78f4-4ae6-8e72-7b21c02a9d13.html" target="element">  </a> </td>
+																		<td> <a href="../elements/a08c546f-78f4-4ae6-8e72-7b21c02a9d13.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/c3ae8dc2-811b-4883-a2bd-86e2281bad1b.html" target="element"> Metamodel </a> </td>
+																		<td> <a href="../elements/141b248c-38d2-4b4f-89da-48bad62139e7.html" target="element"> Node </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/2392553c-1fb8-48b3-8cbd-51e488dbcce4.html" target="element">  </a> </td>
+																		<td> <a href="../elements/2392553c-1fb8-48b3-8cbd-51e488dbcce4.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/c3ae8dc2-811b-4883-a2bd-86e2281bad1b.html" target="element"> Metamodel </a> </td>
+																		<td> <a href="../elements/b17f2c3f-d01b-4aa5-808b-03087cdd88af.html" target="element"> Business Function </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/86a48d60-00b9-4a52-b4ce-29de896aa7ab.html" target="element">  </a> </td>
+																		<td> <a href="../elements/86a48d60-00b9-4a52-b4ce-29de896aa7ab.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/c3ae8dc2-811b-4883-a2bd-86e2281bad1b.html" target="element"> Metamodel </a> </td>
+																		<td> <a href="../elements/14f2eb06-4188-4a58-bbe7-34774a81c130.html" target="element"> Device </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/52fb9900-85de-4587-a453-4d879d657060.html" target="element">  </a> </td>
+																		<td> <a href="../elements/52fb9900-85de-4587-a453-4d879d657060.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/c3ae8dc2-811b-4883-a2bd-86e2281bad1b.html" target="element"> Metamodel </a> </td>
+																		<td> <a href="../elements/164c68a9-4abf-4855-9f13-db8c6e122ff2.html" target="element"> Data Object </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/3b9a2e74-0260-4b24-986c-0bfec8cedae7.html" target="element">  </a> </td>
+																		<td> <a href="../elements/3b9a2e74-0260-4b24-986c-0bfec8cedae7.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/c3ae8dc2-811b-4883-a2bd-86e2281bad1b.html" target="element"> Metamodel </a> </td>
+																		<td> <a href="../elements/0d4a90a4-3748-42d0-8339-8f23d6bcff1e.html" target="element"> Artifact </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/e78cd24a-bc37-4e54-b97b-6d1f486e9f1b.html" target="element">  </a> </td>
+																				<td> <a href="../elements/e78cd24a-bc37-4e54-b97b-6d1f486e9f1b.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																				<td> <a href="../elements/ac6fd647-6cba-48d5-9df5-e40c1215bb01.html" target="element"> Application Component </a> </td>
+																				<td> <a href="../elements/1fcb3a8c-4c55-416b-b19d-110ad155dc34.html" target="element"> Application Function </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/1bf6c96a-27e6-4986-b57a-536d2f29764f.html" target="element">  </a> </td>
+																				<td> <a href="../elements/1bf6c96a-27e6-4986-b57a-536d2f29764f.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																				<td> <a href="../elements/0c1e9d3c-03c7-496c-9e3e-670b1acdace9.html" target="element"> Business Actor </a> </td>
+																				<td> <a href="../elements/6d77d413-fe0f-40a8-9f61-101fc661070a.html" target="element"> Business Process </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/919dc833-f369-4731-b027-3ff25dd0bf74.html" target="element">  </a> </td>
+																				<td> <a href="../elements/919dc833-f369-4731-b027-3ff25dd0bf74.html" target="element" class="i18n-elementtype-AccessRelationship"></a> </td>
+																				<td> <a href="../elements/43361638-e893-44eb-aaf1-477d7ff9ee59.html" target="element"> Technology Service </a> </td>
+																				<td> <a href="../elements/0d4a90a4-3748-42d0-8339-8f23d6bcff1e.html" target="element"> Artifact </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/9abc7d72-d64c-40f8-80b1-83422655edd9.html" target="element">  </a> </td>
+																				<td> <a href="../elements/9abc7d72-d64c-40f8-80b1-83422655edd9.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/43361638-e893-44eb-aaf1-477d7ff9ee59.html" target="element"> Technology Service </a> </td>
+																				<td> <a href="../elements/ac6fd647-6cba-48d5-9df5-e40c1215bb01.html" target="element"> Application Component </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/a990136a-acc9-457b-8b00-b377f0741175.html" target="element">  </a> </td>
+																				<td> <a href="../elements/a990136a-acc9-457b-8b00-b377f0741175.html" target="element" class="i18n-elementtype-TriggeringRelationship"></a> </td>
+																				<td> <a href="../elements/01c02f69-76d2-4b46-96f3-820352e2d574.html" target="element"> Business Event </a> </td>
+																				<td> <a href="../elements/6d77d413-fe0f-40a8-9f61-101fc661070a.html" target="element"> Business Process </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/8492292f-a419-4ec9-89db-f55d2b7cb850.html" target="element">  </a> </td>
+																				<td> <a href="../elements/8492292f-a419-4ec9-89db-f55d2b7cb850.html" target="element" class="i18n-elementtype-TriggeringRelationship"></a> </td>
+																				<td> <a href="../elements/232ff356-6593-463f-aac0-1b0c89f3db0b.html" target="element"> Technology Interface </a> </td>
+																				<td> <a href="../elements/43361638-e893-44eb-aaf1-477d7ff9ee59.html" target="element"> Technology Service </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/1d6e17d9-b5ab-4f73-92b6-1c12123ba394.html" target="element">  </a> </td>
+																				<td> <a href="../elements/1d6e17d9-b5ab-4f73-92b6-1c12123ba394.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
+																				<td> <a href="../elements/3039199f-cdf3-41ef-a0f2-2b8669772dbd.html" target="element"> System Software </a> </td>
+																				<td> <a href="../elements/43361638-e893-44eb-aaf1-477d7ff9ee59.html" target="element"> Technology Service </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/b251fb6f-faf0-4355-854e-4790e6777b17.html" target="element">  </a> </td>
+																				<td> <a href="../elements/b251fb6f-faf0-4355-854e-4790e6777b17.html" target="element" class="i18n-elementtype-AccessRelationship"></a> </td>
+																				<td> <a href="../elements/6d77d413-fe0f-40a8-9f61-101fc661070a.html" target="element"> Business Process </a> </td>
+																				<td> <a href="../elements/fc52f533-8b6e-4102-a2e1-df85932f4025.html" target="element"> Business Object </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/d75f0b9d-642e-4ecd-a018-37dd9cdedd56.html" target="element">  </a> </td>
+																				<td> <a href="../elements/d75f0b9d-642e-4ecd-a018-37dd9cdedd56.html" target="element" class="i18n-elementtype-AccessRelationship"></a> </td>
+																				<td> <a href="../elements/1fcb3a8c-4c55-416b-b19d-110ad155dc34.html" target="element"> Application Function </a> </td>
+																				<td> <a href="../elements/164c68a9-4abf-4855-9f13-db8c6e122ff2.html" target="element"> Data Object </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/171f815f-3ede-4195-8112-2c374b398c73.html" target="element">  </a> </td>
+																				<td> <a href="../elements/171f815f-3ede-4195-8112-2c374b398c73.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																				<td> <a href="../elements/1fcb3a8c-4c55-416b-b19d-110ad155dc34.html" target="element"> Application Function </a> </td>
+																				<td> <a href="../elements/b17f2c3f-d01b-4aa5-808b-03087cdd88af.html" target="element"> Business Function </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/4a4fbbf9-49d3-4ed2-b46e-7fc0add9b6a1.html" target="element">  </a> </td>
+																				<td> <a href="../elements/4a4fbbf9-49d3-4ed2-b46e-7fc0add9b6a1.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																				<td> <a href="../elements/141b248c-38d2-4b4f-89da-48bad62139e7.html" target="element"> Node </a> </td>
+																				<td> <a href="../elements/3039199f-cdf3-41ef-a0f2-2b8669772dbd.html" target="element"> System Software </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/feaf39bb-20f3-4d9d-9fe0-9e8fe77f6b3b.html" target="element">  </a> </td>
+																				<td> <a href="../elements/feaf39bb-20f3-4d9d-9fe0-9e8fe77f6b3b.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																				<td> <a href="../elements/b17f2c3f-d01b-4aa5-808b-03087cdd88af.html" target="element"> Business Function </a> </td>
+																				<td> <a href="../elements/6d77d413-fe0f-40a8-9f61-101fc661070a.html" target="element"> Business Process </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/14b8d7fd-9efc-4f18-8bbb-b5ce8a679bdd.html" target="element">  </a> </td>
+																				<td> <a href="../elements/14b8d7fd-9efc-4f18-8bbb-b5ce8a679bdd.html" target="element" class="i18n-elementtype-AccessRelationship"></a> </td>
+																				<td> <a href="../elements/b17f2c3f-d01b-4aa5-808b-03087cdd88af.html" target="element"> Business Function </a> </td>
+																				<td> <a href="../elements/164c68a9-4abf-4855-9f13-db8c6e122ff2.html" target="element"> Data Object </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/2b3e28b8-81f9-4413-adf1-3d3c42a6f621.html" target="element">  </a> </td>
+																				<td> <a href="../elements/2b3e28b8-81f9-4413-adf1-3d3c42a6f621.html" target="element" class="i18n-elementtype-TriggeringRelationship"></a> </td>
+																				<td> <a href="../elements/14f2eb06-4188-4a58-bbe7-34774a81c130.html" target="element"> Device </a> </td>
+																				<td> <a href="../elements/232ff356-6593-463f-aac0-1b0c89f3db0b.html" target="element"> Technology Interface </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/d82966a4-d0ba-4bdb-a368-d20dce57867f.html" target="element">  </a> </td>
+																				<td> <a href="../elements/d82966a4-d0ba-4bdb-a368-d20dce57867f.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																				<td> <a href="../elements/14f2eb06-4188-4a58-bbe7-34774a81c130.html" target="element"> Device </a> </td>
+																				<td> <a href="../elements/3039199f-cdf3-41ef-a0f2-2b8669772dbd.html" target="element"> System Software </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/165f700f-abc5-4307-8b27-e1bc00c58815.html" target="element">  </a> </td>
+																				<td> <a href="../elements/165f700f-abc5-4307-8b27-e1bc00c58815.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
+																				<td> <a href="../elements/164c68a9-4abf-4855-9f13-db8c6e122ff2.html" target="element"> Data Object </a> </td>
+																				<td> <a href="../elements/fc52f533-8b6e-4102-a2e1-df85932f4025.html" target="element"> Business Object </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/839b712c-4418-4826-a200-a73edf6d409d.html" target="element">  </a> </td>
+																				<td> <a href="../elements/839b712c-4418-4826-a200-a73edf6d409d.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
+																				<td> <a href="../elements/0d4a90a4-3748-42d0-8339-8f23d6bcff1e.html" target="element"> Artifact </a> </td>
+																				<td> <a href="../elements/164c68a9-4abf-4855-9f13-db8c6e122ff2.html" target="element"> Data Object </a> </td>
+																			</tr>
+
+											
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelGroup -->
+													<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+													<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+													<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelNote -->
+											
+																	<tr>
+																		<td> <a href="../elements/0df9b565-a0ed-4352-9959-744cc774de40.html" target="element">  </a> </td>
+																		<td> <a href="../elements/0df9b565-a0ed-4352-9959-744cc774de40.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/16c36060-72da-4ab0-8c8a-0a48c5b40791.html" target="element"> Motivation </a> </td>
+																		<td> <a href="../elements/9808699d-8d44-40dc-97d0-61d7926181d8.html" target="element"> Goal </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/482d0b76-f613-4080-b1ec-b1537c10d725.html" target="element">  </a> </td>
+																		<td> <a href="../elements/482d0b76-f613-4080-b1ec-b1537c10d725.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/16c36060-72da-4ab0-8c8a-0a48c5b40791.html" target="element"> Motivation </a> </td>
+																		<td> <a href="../elements/e79bd479-e17a-4aaf-b811-829d83c7e35f.html" target="element"> Principle </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/a076017c-19ec-4533-b29f-9fe7022343ad.html" target="element">  </a> </td>
+																		<td> <a href="../elements/a076017c-19ec-4533-b29f-9fe7022343ad.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/16c36060-72da-4ab0-8c8a-0a48c5b40791.html" target="element"> Motivation </a> </td>
+																		<td> <a href="../elements/272903d8-9916-4a6e-b54d-c6031723b6c4.html" target="element"> Driver </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/4505e901-983c-4ce1-9945-5330a8cb2872.html" target="element">  </a> </td>
+																		<td> <a href="../elements/4505e901-983c-4ce1-9945-5330a8cb2872.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/16c36060-72da-4ab0-8c8a-0a48c5b40791.html" target="element"> Motivation </a> </td>
+																		<td> <a href="../elements/7e9efd9a-b1d5-4781-a41b-fe810bd95b6f.html" target="element"> Requirement </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/36ddc9c8-25b4-4baa-bd14-74c934f25f57.html" target="element">  </a> </td>
+																		<td> <a href="../elements/36ddc9c8-25b4-4baa-bd14-74c934f25f57.html" target="element" class="i18n-elementtype-InfluenceRelationship"></a> </td>
+																		<td> <a href="../elements/16c36060-72da-4ab0-8c8a-0a48c5b40791.html" target="element"> Motivation </a> </td>
+																		<td> <a href="../elements/c3ae8dc2-811b-4883-a2bd-86e2281bad1b.html" target="element"> Metamodel </a> </td>
+																	</tr>
+
+											
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
